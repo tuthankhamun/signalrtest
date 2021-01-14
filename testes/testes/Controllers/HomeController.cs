@@ -34,5 +34,10 @@ namespace testes.Controllers
             return View();
         }
 
-}
+        public ActionResult Chat()
+        {
+            return View();
+        }
+
+    }
     }

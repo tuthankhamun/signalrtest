@@ -156,6 +156,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="hub\ChatHub.cs" />
+    <Compile Include="hub\Startup.cs" />
     <Compile Include="Migrations\202101140242017_Mensagem.cs" />
     <Compile Include="Migrations\202101140242017_Mensagem.Designer.cs">
       <DependentUpon>202101140242017_Mensagem.cs</DependentUpon>
@@ -208,6 +210,7 @@
     <Content Include="Views\Mensagens\Details.cshtml" />
     <Content Include="Views\Mensagens\Edit.cshtml" />
     <Content Include="Views\Mensagens\Index.cshtml" />
+    <Content Include="Views\Home\Chat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
